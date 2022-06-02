@@ -1,0 +1,8 @@
+.env
+altv-server.exe
+libnode.dll
+server.log
+node_modules
+data
+modules
+cache
