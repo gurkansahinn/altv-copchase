@@ -1,1 +1,1 @@
-* TODO: Use RPC (tRPC? https://trpc.io/) (on client-server communication)
+* Feel free to contribute
