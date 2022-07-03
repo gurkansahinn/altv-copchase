@@ -1,3 +1,5 @@
-import alt from 'alt-client';
+function main() {
 
-alt.log(`Connteced.`);
+}
+
+main();

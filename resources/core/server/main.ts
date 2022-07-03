@@ -1,3 +1,7 @@
-import alt from 'alt-server';
+import 'reflect-metadata';
 
-alt.log("Server started");
+import { container } from 'tsyringe';
+import { PlayerContext } from './domain/playerContext';
+
+const PlayerContextInstance = container.resolve(PlayerContext);
+PlayerContextInstance.login({ username: '', password: '' });
